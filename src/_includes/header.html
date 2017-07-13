@@ -1,0 +1,23 @@
+<script src="{{ "/assets/custom-elements.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/clarity-icons.min.js" | prepend: site.baseurl }}"></script>
+<div class="main-container">
+<header class="header header-1">
+<div class="branding">
+<a class="nav-link" href="{{ site.baseurl }}/">
+<clr-icon shape="{{ site.clarity_header_iconshape }}"></clr-icon>
+<span class="title">{{ site.title }}</span>
+</a>
+</div>
+
+<div class="header-nav">
+{% for my_page in site.pages %}
+          {% if my_page.title %}
+            {% if my_page.url == page.url %}
+              <a class="nav-link active" href="{{ my_page.url | prepend: site.baseurl }}"><span class="nav-text">{{ my_page.title }}</span></a>
+	    {% else %}
+              <a class="nav-link" href="{{ my_page.url | prepend: site.baseurl }}"><span class="nav-text">{{ my_page.title }}</span></a>            
+            {% endif %}
+	  {% endif %}
+        {% endfor %}
+      </div>
+</header>

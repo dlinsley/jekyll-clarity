@@ -1,0 +1,14 @@
+{
+  "name": "jekyll-clarity",
+  "version": "0.0.1",
+  "description": "Examples jekyll blog with Clarity UI elements",
+  "author": "Daniel Linsley",
+  "license": "MIT",
+  "devDependencies": {
+    "clarity-icons": "^0.10.0-alpha.4",
+    "clarity-ui": "^0.10.0-alpha.4"
+  },
+  "dependencies": {
+    "@webcomponents/custom-elements": "^1.0.0"
+  }
+}
