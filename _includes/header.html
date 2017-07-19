@@ -5,7 +5,7 @@
 <div class="branding">
 <a class="nav-link" href="{{ site.baseurl }}/">
 <clr-icon shape="{{ site.clarity_header_iconshape }}"></clr-icon>
-<span class="title">{{ site.title }}</span>
+<span class="title">{{ site.title | default: site.github.repository_name }}</span>
 </a>
 </div>
 

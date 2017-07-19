@@ -1,5 +1,5 @@
 .project
 .settings
 node_modules
-public
+_site
 .sass-cache/
