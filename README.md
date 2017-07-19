@@ -10,7 +10,7 @@ Jekyll sample using the [Clarity Design System](http://clarity.design)
 ### Build
 `bundle exec jekyll build`
 
-Site will be in the `public` folder
+Site will be in the `_site` folder
 ### Preview
 `bundle exec jekyll serve --host 0.0.0.0`
 
