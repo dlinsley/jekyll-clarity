@@ -18,6 +18,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 clarity_header_iconshape: happy-face
 google_analytics:
+disqus_shortname: example
 
 gems:
   - jekyll-mentions
