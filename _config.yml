@@ -20,7 +20,7 @@ clarity_header_iconshape: happy-face
 google_analytics:
 disqus_shortname: example
 
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-gist
   - jekyll-sitemap
