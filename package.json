@@ -5,12 +5,12 @@
   "author": "Daniel Linsley",
   "license": "MIT",
   "devDependencies": {
-    "clarity-icons": "^0.10.8",
-    "clarity-ui": "^0.10.8"
+    "@clr/icons": "^0.12.11",
+    "@clr/ui": "^0.12.11"
   },
   "dependencies": {
     "@webcomponents/custom-elements": "^1.0.0",
-    "clarity-icons": "^0.10.8",
-    "clarity-ui": "^0.10.8"
+    "@clr/icons": "^0.12.11",
+    "@clr/ui": "^0.12.11"
   }
 }
